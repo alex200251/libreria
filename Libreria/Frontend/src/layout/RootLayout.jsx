@@ -63,7 +63,7 @@ export default function RootLayout(){
                             <div className="sidebar_close" onClick={() => setSidebar(false)}>X</div>
                             <Link to="/" className="logo_link" style={{textDecoration: "none"}}>
                                 <img src={libreriaLogo}></img>
-                                <h1 className="logo_text">Librerias MX</h1>
+                                <h1 className="logo_text">Libreria Digital Universitaria</h1>
                             </Link>
                         </li>
                         { cargando ? <Spinner/> : <><div className="Menulist">
